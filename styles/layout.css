@@ -6,7 +6,7 @@ header {
   /* https://css-tricks.com/centering-css-complete-guide/ */
 }
 
-#one section {
+section {
   height: 125px;
   display: flex;
   justify-content: center;
@@ -19,12 +19,8 @@ header {
 
 #two section {
   height: 250px;
-  width: 240px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
   float: left;
-  overflow: hidden;
 }
 
 footer {
@@ -32,4 +28,50 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* clear: both; */
+}
+
+#two {
+  overflow: hidden;
+}
+
+@media (min-width: 768px){
+
+  main {
+    width: 960px;
+    margin: auto;
+  }
+
+  header {
+    height: 100px;
+    width: 960px;
+    margin: auto;
+  }
+
+  #one section {
+    width: 380px;
+    height: 200px;
+    /* float: left; */
+  }
+ 
+  #one section:nth-child(2) {
+    float: left;
+  }
+
+  #one section:first-child {
+    width: 200px;
+    height: 600px;
+    float: left;
+  } 
+
+  #two section {
+    width: 190px;
+    height: 250px;
+  }
+
+  footer {
+    height: 150px;
+    width: 760px;
+    /* float: right; */
+  }
 }
