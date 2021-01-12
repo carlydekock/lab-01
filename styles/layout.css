@@ -51,7 +51,6 @@ footer {
   #one section {
     width: 380px;
     height: 200px;
-    /* float: left; */
   }
  
   #one section:nth-child(2) {
@@ -72,6 +71,5 @@ footer {
   footer {
     height: 150px;
     width: 760px;
-    /* float: right; */
   }
 }
