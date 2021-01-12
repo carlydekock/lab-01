@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  color: gray;
+}
+
+header {
+  border: 1px solid gray;
+}
+
+section {
+  border: 1px solid gray;
+}
+
+footer {
+  border: 1px solid gray;
+}

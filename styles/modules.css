@@ -1,0 +1,76 @@
+header {
+  background-color: lightblue;
+}
+
+footer {
+  background-color: lightcoral;
+}
+
+#one section:first-child {
+  background-color: lightgoldenrodyellow;
+}
+
+#one section:nth-child(2) {
+  background-color: lightpink;
+}
+
+#one section:nth-child(3) {
+  background-color: lightseagreen;
+}
+
+#two section:first-child {
+  background-color: lightsalmon;
+}
+
+#two section:nth-child(2) {
+  background-color: lightyellow;
+}
+
+#two section:nth-child(3) {
+  background-color: lightsteelblue;
+}
+
+#two section:nth-child(4) {
+  background-color: lightgreen;
+}
+
+
+@media (min-width: 768px){
+
+  header {
+    background-color: blue;
+  }
+  
+  footer {
+    background-color: coral;
+  }
+  
+  #one section:first-child {
+    background-color: goldenrod;
+  }
+  
+  #one section:nth-child(2) {
+    background-color: pink;
+  }
+  
+  #one section:nth-child(3) {
+    background-color: seagreen;
+  }
+  
+  #two section:first-child {
+    background-color: salmon;
+  }
+  
+  #two section:nth-child(2) {
+    background-color: yellow;
+  }
+  
+  #two section:nth-child(3) {
+    background-color: steelblue;
+  }
+  
+  #two section:nth-child(4) {
+    background-color: green;
+  }
+
+}
