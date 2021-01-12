@@ -1,0 +1,35 @@
+header {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* https://css-tricks.com/centering-css-complete-guide/ */
+}
+
+#one section {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#one section:first-child {
+  height: 150px;
+}
+
+#two section {
+  height: 250px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  overflow: hidden;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
