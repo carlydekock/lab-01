@@ -6,6 +6,13 @@ header {
   /* https://css-tricks.com/centering-css-complete-guide/ */
 }
 
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 75px 150px 125px 125px
+}
+
+
 section {
   height: 125px;
   display: flex;

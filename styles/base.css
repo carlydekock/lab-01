@@ -6,14 +6,6 @@
   color: gray;
 }
 
-header {
-  border: 1px solid gray;
-}
-
-section {
-  border: 1px solid gray;
-}
-
-footer {
+main section {
   border: 1px solid gray;
 }
