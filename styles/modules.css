@@ -1,76 +1,116 @@
-header {
-  background-color: lightblue;
-}
-
-footer {
-  background-color: lightcoral;
-}
-
-#one section:first-child {
+section:first-child {
   background-color: lightgoldenrodyellow;
 }
 
-#one section:nth-child(2) {
+section:nth-child(2) {
   background-color: lightpink;
 }
 
-#one section:nth-child(3) {
+section:nth-child(3) {
   background-color: lightseagreen;
 }
 
-#two section:first-child {
+section:nth-child(4) {
   background-color: lightsalmon;
 }
 
-#two section:nth-child(2) {
+section:nth-child(5) {
   background-color: lightyellow;
 }
 
-#two section:nth-child(3) {
+section:nth-child(6) {
   background-color: lightsteelblue;
 }
 
-#two section:nth-child(4) {
+section:nth-child(7) {
   background-color: lightgreen;
+}
+
+section:nth-child(8) {
+  background-color: lightcoral;
+}
+
+section:nth-child(9) {
+  background-color: lightblue;
 }
 
 
 @media (min-width: 768px){
 
-  header {
+  section:first-child {
     background-color: blue;
   }
   
-  footer {
+  section:nth-child(2) {
     background-color: coral;
   }
   
-  #one section:first-child {
+  section:nth-child(3) {
     background-color: goldenrod;
   }
   
-  #one section:nth-child(2) {
+  section:nth-child(4) {
     background-color: pink;
   }
   
-  #one section:nth-child(3) {
+  section:nth-child(5) {
     background-color: seagreen;
   }
   
-  #two section:first-child {
-    background-color: salmon;
+  section:nth-child(6) {
+    background-color: lightskyblue;
   }
   
-  #two section:nth-child(2) {
+  section:nth-child(7) {
     background-color: yellow;
   }
   
-  #two section:nth-child(3) {
+  section:nth-child(8) {
     background-color: steelblue;
   }
   
-  #two section:nth-child(4) {
-    background-color: green;
+  section:nth-child(9) {
+    background-color: purple;
+  }
+
+}
+
+@media (min-width: 961px){
+
+  section:first-child {
+    background-color: darkred;
+  }
+  
+  section:nth-child(2) {
+    background-color: darksalmon;
+  }
+  
+  section:nth-child(3) {
+    background-color: darkorchid;
+  }
+  
+  section:nth-child(4) {
+    background-color: darkorange;
+  }
+  
+  section:nth-child(5) {
+    background-color: darkseagreen;
+  }
+  
+  section:nth-child(6) {
+    background-color: darkturquoise;
+  }
+  
+  section:nth-child(7) {
+    background-color: yellowgreen;
+  }
+  
+  section:nth-child(8) {
+    background-color: darkslateblue;
+  }
+  
+  section:nth-child(9) {
+    background-color: darkcyan;
   }
 
 }
